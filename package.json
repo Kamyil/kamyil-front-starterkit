@@ -1,0 +1,46 @@
+{
+  "name": "mccom-universal-front",
+  "version": "0.1.0",
+  "description": "Universal Front for MCCOM e-commerce sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "uni test",
+    "dev": "webpack-dev-server --progress --colors",
+    "start": "webpack && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kamyil/mccom-universal-front.git"
+  },
+  "author": "Kamil \"Kamyil\" Bugajak, Marcin \"RPG-onion\" Labryga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kamyil/mccom-universal-front/issues"
+  },
+  "homepage": "https://github.com/Kamyil/mccom-universal-front#readme",
+  "devDependencies": {
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "browsersync": "0.0.1-security",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "del": "^3.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.9.2",
+    "popper.js": "^1.14.3",
+    "run-sequence": "^2.2.1",
+    "sass-loader": "^7.0.3",
+    "serviceworker-webpack-plugin": "^1.0.0-alpha02",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^4.4.2",
+    "typescript": "^2.9.2",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "browser-sync": "^2.24.5",
+    "gulp-changed": "^3.2.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}
